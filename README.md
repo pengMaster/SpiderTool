@@ -66,6 +66,8 @@ dependencies {
 
                 }
             })
+```
+```java
            //java 版
             SpiderUtil.Companion.getImageByUrl(url, new ImageResultListener() {
                 @Override
@@ -73,7 +75,8 @@ dependencies {
 
                 }
             });
-
+```
+```java
           案例： 获取妹子图网站所有img标签下"data-original", "alt"
             //标签
             val tag = "img"
@@ -96,6 +99,17 @@ dependencies {
     <!--联网-->
     <uses-permission android:name="android.permission.INTERNET" />
 ```
+#### 注意
+    1.比如妹子图网站获取的图片url如果进行展示或者下载，需要进行防盗链处理操作
+    2.获取指定标签下的指定属性
+    例如：
+```java
+<img width='236' height='354' class='lazy' alt='清纯中带着性感 尤果网女神美替极品身材一览无遗' src='http://i.meizitu.net/pfiles/img/lazy.png' data-original='http://i.meizitu.net/thumbs/2018/09/150833_14c39_236.jpg' />
+```
+    获取img标签下  alt  src 属性
+    tag = img
+    list = ("alt",  "src")
+
 
 #### 参与贡献
 
