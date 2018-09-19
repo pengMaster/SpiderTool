@@ -44,7 +44,6 @@ open class MainActivity : AppCompatActivity() {
                         Log.e("getAttributeByTag", it.toString())
                     }
                 }
-
             })
         }
 
