@@ -4,6 +4,11 @@
 - 爬取指定网站url所有图片以及描述信息
 - 爬取指定网站中任何标签下的任意属性
 
+### 效果展示
+<div>
+    <img src="https://github.com/pengMaster/picApplyGit/blob/master/spider/spider_top_bg.jpg"   alt=""/>
+</div>
+
 ##### 1.获取所有图片以及描述信息
 ```java
     ImageResult(name='142847_16a48_236.jpg', url='http://i.meizitu.net/thumbs/2018/07/142847_16a48_236.jpg', desc='艺妓的诱惑 日系美女水嫩性感柔媚多情', extendOne='')
